@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main {
+  width: 80%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main table {
+  width: 450px;
+  border-collapse: collapse;
+  height: auto;
+  background: #000;
+}
+
+body main table td {
+  text-align: center;
+}
+
+body main table th, body main table td {
+  color: lightgray;
+  padding: 5px;
+  font-size: 30px;
+  border: 1px solid white;
+}
+
+body main h1 {
+  color: lightgray;
+  letter-spacing: 5px;
+}
+
+body main h2 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  text-shadow: 10px 10px 10px 10px black;
+}
+
+body main .action-buttons {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .action-buttons .how_to_play {
+  background: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+.cancel{
+	color: white;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	display: none;
+}
+
+body main .action-buttons button {
+  margin-top: 1px;
+  font-size: 20px;
+  width: 350px;
+  height: 50px;
+  outline: none;
+}
+/*# sourceMappingURL=page.css.map */
