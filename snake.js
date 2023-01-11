@@ -9,7 +9,7 @@ const gameIntro = new Audio("playtime.mp3");
         action = eachbtn.value;
         if(action === 'start'){
             console.log('starting now....');
-            location.href = 'index.html';
+            location.href = 'game.html';
         }
         else if(action === 'score'){
             console.log('compiling leaderboard.....');
@@ -43,5 +43,5 @@ cancel.style.display = ' block';
 	let cancel =  document.querySelector('.cancel');	
 cancel.addEventListener('click', ()=>{
 	cancel.style.color= 'red';
-    location.href = 'homepage.html';
+    location.href = 'index.html';
 });
